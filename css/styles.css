@@ -166,11 +166,11 @@ ul,
     display: flex;
     justify-content: center;
 }
-/* .is-hidden {
+.is-hidden {
     pointer-events: none;
     visibility: hidden;
     opacity: 0;
-} */
+}
 .modal-btn-close {
     width: 30px;
     height: 30px;
@@ -254,7 +254,6 @@ ul,
 .form-group textarea:focus {
     border: 1px solid var(--button-blue);
     outline: none;
-   
 }
 .form-group input:focus + svg {
     fill: var(--button-blue);
